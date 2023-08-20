@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="h_sdukdy">
+    <item name="android:textSize">25sp</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:textColor">#5DB9B5</item>
+    <item name="android:lineSpacingExtra">20sp</item>
+     <!-- <item name="android:fontFamily">Pretendard</item>   -->
+    </style>
+    <style name="h_createChat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+    <style name="h_studyGroup">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+    <style name="h_fullView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+    <style name="h_search">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+    <style name="h_online1">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+    </style>
+    <style name="h_online2">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+    </style>
+    <style name="h_computerEngi">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="h_computerEngi2">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="h_end">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+    </style>
+    <style name="h_end2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+    </style>
+    <style name="h_join">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+    </style>
+    <style name="h_join2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+    </style>
+    <style name="h_nothing">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">16sp</item>
+    </style>
+    <style name="h_allGroup">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+    <style name="h_online3">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+    </style>
+    <style name="h_offline">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">14sp</item>
+    </style>
+    <style name="h_nothing2">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">16sp</item>
+    </style>
+    <style name="h_nothing3">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">16sp</item>
+    </style>
+    <style name="h_java">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">18sp</item>
+    </style>
+    <style name="h_internetPro">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="h_computerEngi3">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+    </style>
+    <style name="h_online4">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+        <item name="android:lineSpacingExtra">11sp</item>
+    </style>
+    <style name="h_datast">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:lineSpacingExtra">18sp</item>
+    </style>
+    <style name="h_join3">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+        <item name="android:lineSpacingExtra">12sp</item>
+    </style>
+    <style name="h_inbutton">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+    <style name="h_goal">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#303030</item>
+        <item name="android:lineSpacingExtra">20sp</item>
+    </style>
+
+
+
+
+</resources>

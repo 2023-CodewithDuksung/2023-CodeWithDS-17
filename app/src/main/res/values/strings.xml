@@ -1,0 +1,34 @@
+<resources>
+    <string name="h_app_name">sDukdy</string>
+    <string name="h_sdukdy">sDukdy</string>
+    <string name="h_createChat">채팅방 생성하기</string>
+    <string name="h_studyGroup">모집 중인 스터디 그룹</string>
+    <string name="h_fullView">더보기</string>
+    <string name="h_search">검색</string>
+    <string name="h_online1">온라인 | 모집인원 : 6명</string>
+    <string name="h_online2">온라인 | 모집인원 : 5명</string>
+    <string name="h_omputerEngi">컴퓨터공학과</string>
+    <string name="h_computerEngi2">컴퓨터공학과</string>
+    <string name="h_end">마감</string>
+    <string name="h_end2">마감</string>
+    <string name="h_join">가입</string>
+    <string name="h_join2">가입</string>
+    <string name="h_nothing">~~~~~~~</string>
+    <string name="h_allGroup">총 15개의 스터디 그룹</string>
+    <string name="h_online3">온라인</string>
+    <string name="h_offline">오프라인</string>
+    <string name="h_nothing2">알고리즘</string>
+    <string name="h_nothing3">해커톤</string>
+    <string name="h_java">JAVA프로그래밍</string>
+    <string name="h_internetPro">인터넷프로그래밍</string>
+    <string name="h_computerEngi3">컴퓨터공학과</string>
+    <string name="h_online4">온라인 | 모집인원 : 6명</string>
+    <string name="h_datast">자료구조론</string>
+    <string name="h_join3">가입</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="h_hello_blank_fragment">Hello blank fragment</string>
+    <string name="h_inbutton">입장하기</string>
+    <string name="h_goal">학습목표</string>
+
+
+</resources>

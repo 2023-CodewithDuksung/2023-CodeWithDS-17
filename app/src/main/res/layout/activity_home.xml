@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#F4F4F4"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="horizontal">
+
+
+        <View
+            android:id="@+id/h_underbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/h_img9" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/h_homeicon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="655dp"
+            android:background="@drawable/h_img7"
+            android:clipToOutline="true" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/h_timetable"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="655dp"
+            android:background="@drawable/h_img4"
+            android:clipToOutline="true" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/h_chatting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="655dp"
+            android:background="@drawable/h_img8"
+            android:clipToOutline="true" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/user_02"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="655dp"
+            android:background="@drawable/h_img6"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/fullView"
+            android:layout_width="44dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="321dp"
+            android:layout_marginTop="319dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/h_fullView"
+            android:textAppearance="@style/h_fullView" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+    <View
+        android:id="@+id/h_top"
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/h_img10"
+        />
+
+    <View
+        android:id="@+id/h_rectangle10"
+        android:layout_width="275dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/h_rectangle3"
+         />
+    <View
+        android:id="@+id/h_rectange100"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/h_img2" />
+
+    <View
+        android:id="@+id/h_logo"
+        android:layout_width="157dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="146dp"
+        android:lineSpacingExtra="-12sp"
+        android:gravity="center_vertical"
+        android:background="@drawable/h_img11"
+        />
+    <View
+        android:id="@+id/h_rectangle2"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:background="@drawable/h_rectangle2"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/h_rectangle3"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="154dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:background="@drawable/h_rectangle2"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/h_rectangle4"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="278dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="261dp"
+        android:background="@drawable/h_rectangle2"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/h_rectangle5"
+        android:layout_width="378dp"
+        android:layout_height="126dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/h_img12"
+        />
+    <View
+        android:id="@+id/h_rectangle7"
+        android:layout_width="128dp"
+        android:layout_height="143dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/h_img13"
+        android:elevation="4dp"
+        />
+    <View
+        android:id="@+id/h_rectangle8"
+        android:layout_width="127dp"
+        android:layout_height="143dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/h_img13"
+        android:elevation="4dp"
+        />
+
+    <View
+        android:id="@+id/h_rectangle9"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="282dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="353dp"
+        android:background="@drawable/h_img13"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/h_rectangle6"
+        android:layout_width="195dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/h_img5"
+        android:elevation="4dp"
+        />
+
+
+</RelativeLayout>
