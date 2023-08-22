@@ -13,5 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JOIN"
+rootProject.name = "TEST"
 include(":app")
+ 
