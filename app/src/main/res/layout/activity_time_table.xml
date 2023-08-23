@@ -610,4 +610,58 @@
 
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/o_timetable_underbar"
+            android:layout_width="440dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/o_homebar_rectangle" />
+
+        <ImageView
+            android:id="@+id/o_timetable_homeicon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/o_homeicon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:id="@+id/o_timetable_calendar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/o_calendaricon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="140dp"/>
+        <ImageView
+            android:id="@+id/o_timetable_calendar1"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:src="@drawable/o_ellipse3"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="150dp"/>
+
+        <ImageView
+            android:id="@+id/o_timetable_chatting"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/o_chaticon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="250dp"/>
+
+        <ImageView
+            android:id="@+id/o_timetable_mypage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/o_usericon"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="350dp"/>
+
+    </RelativeLayout>
+
 </LinearLayout>
