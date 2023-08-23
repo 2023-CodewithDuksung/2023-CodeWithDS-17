@@ -143,6 +143,116 @@
         <item name="android:lineSpacingExtra">20sp</item>
     </style>
 
+    <!--유예원 -->
+    <style name="o_mypage_1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="o_mypage_2">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_mypage_3">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_mypage_4">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_mypage_5">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_profile_1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="o_profile_2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_profile_3">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_profile_4">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_settings_1">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="o_settings_2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="o_timetable_addTxt">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_subject_1">
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_subject_2">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
+    <style name="o_subject_3">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="o_subject_4">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_subject_5">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_subject_6">
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">#9F9F9F</item>
+    </style>
+
+    <style name="o_subject_7">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#F1F1F1</item>
+    </style>
+
 
 
 
