@@ -75,7 +75,7 @@
         android:layout_height="38dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="575dp"
+        android:layout_marginTop="550dp"
         android:background="@drawable/o_mypage_rectangle1"
         />
 
@@ -86,7 +86,7 @@
         android:layout_height="22dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="555dp"
         android:text="저장"
         android:textSize="16dp"
         android:textAppearance="@style/o_mypage_5"
@@ -103,8 +103,8 @@
         <View
             android:id="@+id/o_profile_underbar"
             android:layout_width="440dp"
-            android:layout_height="95dp"
-            android:layout_marginTop="640dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="620dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/o_homebar_rectangle" />
 
@@ -112,16 +112,16 @@
             android:id="@+id/o_settings_homeicon"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/o_homeicon"
-            android:layout_marginTop="665dp"
-            android:layout_marginLeft="35dp"/>
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="645dp"
+            android:src="@drawable/o_homeicon" />
 
         <ImageView
             android:id="@+id/o_settings_calendar"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_calendaricon2"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="645dp"
             android:layout_marginLeft="140dp"/>
 
         <ImageView
@@ -129,7 +129,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_chaticon"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="645dp"
             android:layout_marginLeft="250dp"/>
 
         <ImageView
@@ -137,14 +137,14 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_usercolor"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="645dp"
             android:layout_marginLeft="350dp"/>
         <ImageView
             android:id="@+id/o_settings_mypage1"
             android:layout_width="7dp"
             android:layout_height="7dp"
             android:src="@drawable/o_ellipse3"
-            android:layout_marginTop="705dp"
+            android:layout_marginTop="685dp"
             android:layout_marginLeft="361dp"/>
 
     </RelativeLayout>
