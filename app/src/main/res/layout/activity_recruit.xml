@@ -7,272 +7,444 @@
     android:clipToOutline="true"
     android:background="#F4F4F4"
     >
-    <View
-        android:id="@+id/rectangle_16"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="369dp"
-        android:background="@drawable/h_rectangle12"
-        />
-    <TextView
-        android:id="@+id/online1"
-        android:layout_width="110dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="407dp"
-        android:text="@string/h_online1"
-        android:textAppearance="@style/h_online1"
-        android:gravity="center_horizontal|center_vertical"
-        android:fontFamily="@font/hakgyoansimwoojur"
-        />
-    <View
-        android:id="@+id/rectangle_17"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="292dp"
-        android:background="@drawable/h_rectangle13"
-        />
-    <TextView
-        android:id="@+id/online2"
-        android:layout_width="110dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="330dp"
-        android:text="@string/h_online2"
-        android:textAppearance="@style/h_online2"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
-    <TextView
-        android:id="@+id/computerEngi"
-        android:layout_width="49dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="379dp"
-        android:text="@string/h_computerEngi2"
-        android:textAppearance="@style/h_computerEngi"
-        android:gravity="center_horizontal|center_vertical"
-        android:fontFamily="@font/suitebold"
-        />
-    <TextView
-        android:id="@+id/java"
-        android:layout_width="122dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="385dp"
-        android:text="@string/h_java"
-        android:textAppearance="@style/h_java"
-        android:gravity="center_horizontal|center_vertical"
-        android:fontFamily="@font/suiteregular"
-        />
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
 
-    <TextView
-        android:id="@+id/computerEngi2"
-        android:layout_width="49dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="299dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_computerEngi2"
-        android:textAppearance="@style/h_computerEngi2" />
-    <View
-        android:id="@+id/rectangle_15"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="446dp"
-        android:background="@drawable/h_rectangle11"
-        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/computerEngi5"
-        android:layout_width="49dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="454dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_computerEngi2"
-        android:textAppearance="@style/h_computerEngi" />
+            <View
+                android:id="@+id/rectangle_16"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="369dp"
+                android:background="@drawable/h_rectangle12" />
 
-    <TextView
-        android:id="@+id/online5"
-        android:layout_width="110dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="485dp"
-        android:text="@string/h_online1"
-        android:textAppearance="@style/h_online1"
-        android:gravity="center_horizontal|center_vertical"
-        />
+            <TextView
+                android:id="@+id/online1"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="407dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_online1"
+                android:textAppearance="@style/h_online1" />
 
-    <View
-        android:id="@+id/rectangle_7"
-        android:layout_width="53dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="479dp"
-        android:background="@drawable/h_rectangle22"
-        />
-    <TextView
-        android:id="@+id/end"
-        android:layout_width="68dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="272dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="476dp"
-        android:text="@string/h_end"
-        android:textAppearance="@style/h_end"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <View
-        android:id="@+id/rectangle_8"
-        android:layout_width="53dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="402dp"
-        android:background="@drawable/h_rectangle23"
-        />
-    <TextView
-        android:id="@+id/end2"
-        android:layout_width="68dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="272dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="399dp"
-        android:text="@string/h_end2"
-        android:textAppearance="@style/h_end2"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <View
-        android:id="@+id/rectangle_14"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="523dp"
-        android:background="@drawable/h_rectangle10"
-        />
-    <TextView
-        android:id="@+id/online6"
-        android:layout_width="110dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="561dp"
-        android:text="@string/h_online1"
-        android:textAppearance="@style/h_online1"
-        android:gravity="center_horizontal|center_vertical"
-        />
+            <View
+                android:id="@+id/rectangle_17"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="292dp"
+                android:background="@drawable/h_rectangle13" />
 
-    <TextView
-        android:id="@+id/computerEngi6"
-        android:layout_width="49dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="530dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_computerEngi2"
-        android:textAppearance="@style/h_computerEngi" />
+            <TextView
+                android:id="@+id/online2"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_online2"
+                android:textAppearance="@style/h_online2" />
 
-    <View
-        android:id="@+id/rectangle_9"
-        android:layout_width="53dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="557dp"
-        android:background="@drawable/h_rectangle24"
-        />
+            <TextView
+                android:id="@+id/computerEngi"
+                android:layout_width="49dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="379dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_computerEngi2"
+                android:textAppearance="@style/h_computerEngi" />
 
-    <TextView
-        android:id="@+id/join"
-        android:layout_width="68dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="272dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="554dp"
-        android:text="@string/h_join"
-        android:textAppearance="@style/h_join"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <View
-        android:id="@+id/rectangle_10"
-        android:layout_width="53dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="323dp"
-        android:background="@drawable/h_rectangle6"
-        />
-    <TextView
-        android:id="@+id/join2"
-        android:layout_width="68dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="272dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="320dp"
-        android:text="@string/h_join2"
-        android:textAppearance="@style/h_join2"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <View
-        android:id="@+id/rectangle_11"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="600dp"
-        android:background="@drawable/h_rectangle7"
-        />
-    <TextView
-        android:id="@+id/nothing"
-        android:layout_width="122dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="35dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="606dp"
-        android:text="@string/h_nothing"
-        android:textAppearance="@style/h_nothing"
-        android:gravity="center_horizontal|center_vertical"
-        />
+            <TextView
+                android:id="@+id/java"
+                android:layout_width="122dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="385dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_java"
+                android:textAppearance="@style/h_java" />
+
+            <TextView
+                android:id="@+id/computerEngi2"
+                android:layout_width="49dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="299dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_computerEngi2"
+                android:textAppearance="@style/h_computerEngi2"
+
+                />
+
+            <View
+                android:id="@+id/rectangle_15"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="446dp"
+                android:background="@drawable/h_rectangle11" />
+
+            <TextView
+                android:id="@+id/computerEngi5"
+                android:layout_width="49dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="454dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_computerEngi2"
+                android:textAppearance="@style/h_computerEngi" />
+
+            <TextView
+                android:id="@+id/online5"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="485dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_online1"
+                android:textAppearance="@style/h_online1" />
+
+            <View
+                android:id="@+id/rectangle_7"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="479dp"
+                android:background="@drawable/h_rectangle22" />
+
+            <TextView
+                android:id="@+id/end"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="476dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_end"
+                android:textAppearance="@style/h_end" />
+
+            <View
+                android:id="@+id/rectangle_8"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="402dp"
+                android:background="@drawable/h_rectangle23" />
+
+            <TextView
+                android:id="@+id/end2"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="399dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_end2"
+                android:textAppearance="@style/h_end2" />
+
+            <View
+                android:id="@+id/rectangle_14"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="523dp"
+                android:background="@drawable/h_rectangle10" />
+
+            <TextView
+                android:id="@+id/online6"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="561dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_online1"
+                android:textAppearance="@style/h_online1" />
+
+            <TextView
+                android:id="@+id/computerEngi6"
+                android:layout_width="49dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="530dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_computerEngi2"
+                android:textAppearance="@style/h_computerEngi" />
+
+            <View
+                android:id="@+id/rectangle_9"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="557dp"
+                android:background="@drawable/h_rectangle24" />
+
+            <TextView
+                android:id="@+id/join"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="554dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_join"
+                android:textAppearance="@style/h_join" />
+
+            <View
+                android:id="@+id/rectangle_10"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="323dp"
+                android:background="@drawable/h_rectangle6" />
+
+            <TextView
+                android:id="@+id/join2"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="320dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_join2"
+                android:textAppearance="@style/h_join2" />
+
+            <View
+                android:id="@+id/rectangle_11"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="600dp"
+                android:background="@drawable/h_rectangle7" />
+
+
+            <TextView
+                android:id="@+id/chatRoomNameTextView"
+                android:layout_width="122dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="606dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_nothing"
+                android:textAppearance="@style/h_nothing"
+                android:fontFamily="@font/suitebold"/>
+
+            <TextView
+                android:id="@+id/h_online2"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="온라인 | 모집인원: 4명 "
+                android:textAppearance="@style/h_online4" />
+            <View
+                android:id="@+id/h_rectangle11"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="635dp"
+                android:background="@drawable/h_rectangle24" />
+            <TextView
+                android:id="@+id/h_join5"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="633dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_join"
+                android:textAppearance="@style/h_join" />
+
+            <TextView
+                android:id="@+id/nothing2"
+                android:layout_width="122dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="539dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_nothing2"
+                android:textAppearance="@style/h_nothing2" />
+
+            <TextView
+                android:id="@+id/nothing3"
+                android:layout_width="122dp"
+                android:layout_height="33dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="463dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_nothing3"
+                android:textAppearance="@style/h_nothing3" />
+
+            <TextView
+                android:id="@+id/internetPro"
+                android:layout_width="122dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="307dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_internetPro"
+                android:textAppearance="@style/h_internetPro" />
+
+            <View
+                android:id="@+id/rectangle_19"
+                android:layout_width="300dp"
+                android:layout_height="68dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="215dp"
+                android:background="@drawable/h_rectangle15" />
+
+            <TextView
+                android:id="@+id/computerEngi3"
+                android:layout_width="49dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="224dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_computerEngi3"
+                android:textAppearance="@style/h_computerEngi3" />
+
+            <TextView
+                android:id="@+id/online4"
+                android:layout_width="110dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="253dp"
+                android:fontFamily="@font/suiteregular"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_online4"
+                android:textAppearance="@style/h_online4" />
+
+            <TextView
+                android:id="@+id/datast"
+                android:layout_width="122dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="232dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_datast"
+                android:textAppearance="@style/h_datast" />
+
+            <View
+                android:id="@+id/rectangle_18"
+                android:layout_width="53dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="244dp"
+                android:background="@drawable/h_rectangle14" />
+
+            <TextView
+                android:id="@+id/join3"
+                android:layout_width="68dp"
+                android:layout_height="32dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="272dp"
+                android:layout_marginTop="241dp"
+                android:fontFamily="@font/suitebold"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/h_join3"
+                android:textAppearance="@style/h_join3" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
     <TextView
         android:id="@+id/allGroup"
         android:layout_width="162dp"
@@ -285,6 +457,7 @@
         android:textAppearance="@style/h_allGroup"
         android:lineSpacingExtra="6sp"
         android:gravity="center_vertical"
+        android:fontFamily="@font/suitebold"
         />
 
     <View
@@ -308,6 +481,7 @@
         android:text="@string/h_online3"
         android:textAppearance="@style/h_online3"
         android:gravity="center_horizontal|center_vertical"
+        android:fontFamily="@font/suitebold"
         />
     <View
         android:id="@+id/rectangle_12"
@@ -330,115 +504,10 @@
         android:text="@string/h_offline"
         android:textAppearance="@style/h_offline"
         android:gravity="center_horizontal|center_vertical"
-        />
-
-    <TextView
-        android:id="@+id/nothing2"
-        android:layout_width="122dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="539dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_nothing2"
-        android:textAppearance="@style/h_nothing2" />
-
-    <TextView
-        android:id="@+id/nothing3"
-        android:layout_width="122dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="463dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_nothing3"
-        android:textAppearance="@style/h_nothing3" />
-
-    <TextView
-        android:id="@+id/internetPro"
-        android:layout_width="122dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="307dp"
-        android:text="@string/h_internetPro"
-        android:textAppearance="@style/h_internetPro"
-        android:gravity="center_horizontal|center_vertical"
         android:fontFamily="@font/suitebold"
         />
-    <View
-        android:id="@+id/rectangle_19"
-        android:layout_width="300dp"
-        android:layout_height="68dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="215dp"
-        android:background="@drawable/h_rectangle15"
-        />
-    <TextView
-        android:id="@+id/computerEngi3"
-        android:layout_width="49dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="224dp"
-        android:text="@string/h_computerEngi3"
-        android:textAppearance="@style/h_computerEngi3"
-        android:gravity="center_horizontal|center_vertical"
-        />
-    <TextView
-        android:id="@+id/online4"
-        android:layout_width="110dp"
-        android:layout_height="19dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="55dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="253dp"
-        android:text="@string/h_online4"
-        android:textAppearance="@style/h_online4"
-        android:gravity="center_horizontal|center_vertical"
-        />
 
-    <TextView
-        android:id="@+id/datast"
-        android:layout_width="122dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="232dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/h_datast"
-        android:textAppearance="@style/h_datast"
-        android:fontFamily="@font/suitebold"/>
 
-    <View
-        android:id="@+id/rectangle_18"
-        android:layout_width="53dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="280dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="244dp"
-        android:background="@drawable/h_rectangle14"
-        />
-    <TextView
-        android:id="@+id/join3"
-        android:layout_width="68dp"
-        android:layout_height="32dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="272dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="241dp"
-        android:text="@string/h_join3"
-        android:textAppearance="@style/h_join3"
-        android:gravity="center_horizontal|center_vertical"
-        />
     <View
         android:id="@+id/rectangle_20"
         android:layout_width="290dp"
@@ -457,16 +526,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/rectangle_20"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="-41dp"
+        android:layout_marginTop="-36dp"
         android:hint="@string/h_search"
         android:imeOptions="actionSearch"
-        android:inputType="text" />
+        android:inputType="text"
+        android:fontFamily="@font/suitebold"/>
 
     <!-- 검색 기능 구현 -->
 
 
     <View
-        android:id="@+id/h_rectange100"
+        android:id="@+id/h_searchclick"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_alignParentLeft="true"
