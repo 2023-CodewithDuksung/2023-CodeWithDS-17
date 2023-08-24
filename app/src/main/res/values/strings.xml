@@ -29,6 +29,6 @@
     <string name="h_hello_blank_fragment">Hello blank fragment</string>
     <string name="h_inbutton">입장하기</string>
     <string name="h_goal">학습목표</string>
-
+    <string name="j_addChatting">새 채팅방 생성하기</string>
 
 </resources>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/addActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#F4F4F4"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:id="@+id/j_createChatting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/j_addChatting"
+        android:textAppearance="@style/j_title"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/suitebold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:padding="30dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/j_chattingName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:text="채팅방 이름" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="13dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusTopStart="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/j_chattingNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:maxLength="25"
+                android:paddingStart="8dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="8dp"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/j_chattingAim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="20dp"
+            android:text="학습목표" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="13dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusTopStart="13dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/j_chattingAimEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:maxLength="150"
+                android:paddingStart="8dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="8dp"
+                android:singleLine="false"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/j_searchCategory"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="20dp"
+                    android:text="검색 카테고리" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusBottomEnd="13dp"
+                    app:boxCornerRadiusBottomStart="13dp"
+                    app:boxCornerRadiusTopEnd="13dp"
+                    app:boxCornerRadiusTopStart="13dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/j_searchCategoryEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="25"
+                        android:paddingStart="8dp"
+                        android:paddingTop="9dp"
+                        android:paddingEnd="8dp"
+                        android:singleLine="true"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/j_meeting"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="20dp"
+                    android:text="미팅방식" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    app:boxBackgroundColor="@color/white"
+                    app:boxBackgroundMode="outline"
+                    app:boxCornerRadiusBottomEnd="13dp"
+                    app:boxCornerRadiusBottomStart="13dp"
+                    app:boxCornerRadiusTopEnd="13dp"
+                    app:boxCornerRadiusTopStart="13dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/j_meetingEdit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:inputType="text"
+                        android:maxLength="25"
+                        android:paddingStart="8dp"
+                        android:paddingTop="9dp"
+                        android:paddingEnd="8dp"
+                        android:singleLine="true"
+                        android:textSize="18sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/j_peopleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="20dp"
+            android:text="마감 인원" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="13dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusTopStart="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/j_peopleNumberEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingStart="8dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="8dp"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/j_studyPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="20dp"
+            android:text="공부 기간" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="13dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusTopStart="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/j_studyPeriodEdit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingStart="8dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="8dp"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/j_createButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/j_button_round"
+            android:text="생성하기" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
