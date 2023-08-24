@@ -7,9 +7,11 @@ import android.view.View
 import android.widget.Button
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.example.sdukdy.databinding.ActivityAddBinding
+import com.example.sdukdy.databinding.ActivityChatBinding
 
 class ChatActivity : AppCompatActivity() {
-
+    private lateinit var binding:ActivityChatBinding
     private lateinit var drawerLayout: DrawerLayout //드로어 메뉴
 
     private lateinit var receiverName : String //대화하는 상대방의 이름
@@ -17,7 +19,8 @@ class ChatActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_chat)
+        binding = ActivityChatBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         //넘어온 데이터 변수에 담기
         receiverName = intent.getStringExtra("name").toString()
@@ -49,6 +52,15 @@ class ChatActivity : AppCompatActivity() {
         findViewById<View>(R.id.o_drawable_quizBtn).setOnClickListener {
             val intent= Intent(this@ChatActivity, QuizmainActivity::class.java)
             startActivity(intent)
+        }
+
+        binding.sendBtn.setOnClickListener {
+            // send_message_text의 가시성을 변경합니다.
+            if (binding.sendMessageText.visibility == View.INVISIBLE) {
+                binding.sendMessageText.visibility = View.VISIBLE
+            } else {
+                binding.sendMessageText.visibility = View.INVISIBLE
+            }
         }
 
 

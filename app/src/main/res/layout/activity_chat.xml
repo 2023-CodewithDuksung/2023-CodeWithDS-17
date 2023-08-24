@@ -67,13 +67,31 @@
             </LinearLayout>
 
             <!--대화 내용-->
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/chat_recyclerView"
-                android:layout_marginTop="100dp"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_alignParentTop="true"
-                android:layout_above="@id/input_layout"/>
+                android:layout_marginTop="100dp"
+                android:layout_above="@id/input_layout"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/send_message_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/j_send_mms"
+                    android:padding="10dp"
+                    android:visibility="invisible"
+                    android:fontFamily="@font/suiteregular"
+                    android:text="hello"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
 
             <!--입력 레이아웃-->
             <LinearLayout
