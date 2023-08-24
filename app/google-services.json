@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163850670754",
+    "project_id": "sdukdy-ad93c",
+    "storage_bucket": "sdukdy-ad93c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163850670754:android:a4b71902e06723664f3dfb",
+        "android_client_info": {
+          "package_name": "com.example.sdukdy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163850670754-p22iaojk7qv2v8g0ehv3e0v7ovdnuk8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoeDqOcrrnFj9pmxp1tlnsPT9-ni7b10M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163850670754-p22iaojk7qv2v8g0ehv3e0v7ovdnuk8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

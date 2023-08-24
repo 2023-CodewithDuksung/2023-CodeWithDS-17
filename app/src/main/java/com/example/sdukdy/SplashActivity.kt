@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
         // 일정 시간이 지난 후에 다음 화면으로 전환하기 위해 Handler를 사용
         Handler().postDelayed({
             // 다음 화면으로 전환할 액티비티를 지정
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish() // 스플래시 화면 액티비티를 종료
         }, SPLASH_TIME_OUT)

@@ -39,9 +39,19 @@
     <string name="h_newchat">새 채팅방 생성하기</string>
 
 
+    <string name="sjyapp_name">plan</string>
+    <string name="ertapp_name">emetyroom</string>
+
+
     <!-- Hakyung -->
 
     <string name="h_license">자격증별</string>
+
+    <string name="y_app_name">SDuckdy</string>
+    <string name="common_confirm">아이디</string>
+    <string name="common_confirm2">로그인</string>
+    <string name="common_cancel">비밀번호</string>
+    <string name="common_info">회원가입/비밀번호찾기</string>
 
     >>>>>>> a7ba5638d12486844e214e69938c8e1c3cea238b
 
