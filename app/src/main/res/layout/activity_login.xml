@@ -14,16 +14,15 @@
 
     <TextView
         android:id="@+id/sdukdy"
-        android:layout_marginTop="92dp"
-        android:lineSpacingExtra="-22sp"
-        android:gravity="center_vertical"
+        android:layout_width="274dp"
+        android:layout_height="62dp"
         android:layout_gravity="center_horizontal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/h_img20"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="-22sp"
         android:textColor="#5DB9B5"
-        android:background="@drawable/yy"
-        android:textSize="60dp"
-        />
+        android:textSize="60dp" />
 
     <View
         android:id="@+id/nick"
@@ -31,7 +30,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"/>
 
-    <TextView
+    <EditText
         android:id="@+id/o_mypageRectangle1"
         android:layout_width="330dp"
         android:layout_height="60dp"
@@ -39,11 +38,12 @@
         android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="아이디"
+        android:text="  아이디"
         android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:fontFamily="@font/suitebold"/>
 
-    <TextView
+    <EditText
         android:id="@+id/o_mypageRectangle2"
         android:layout_width="330dp"
         android:layout_height="60dp"
@@ -51,31 +51,35 @@
         android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="비밀번호"
+        android:text="  비밀번호"
         android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:fontFamily="@font/suitebold"/>
 
     <Button
         android:id="@+id/find"
         android:layout_width="wrap_content"
-        android:layout_height="35dp"
+        android:layout_height="40dp"
         android:layout_marginRight="10dp"
         android:text="회원가입/비밀번호찾기"
         android:textColor="#000000"
         android:layout_gravity="right"
-        android:textSize="10dp"
+        android:textSize="13dp"
         android:background="#00ff0000"
         android:layout_marginTop="2dp"
+        android:fontFamily="@font/suitebold"
         />
 
     <Button
         android:id="@+id/login"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="0dp"
         android:layout_width="match_parent"
         android:layout_gravity="center"
         android:backgroundTint="#5DB9B5"
         android:text="로그인"
+        android:textSize="20dp"
+        android:fontFamily="@font/suitebold"
         />
 
 

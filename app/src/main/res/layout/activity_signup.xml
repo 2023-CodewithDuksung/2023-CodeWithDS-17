@@ -12,43 +12,40 @@
     tools:context=".SignupActivity"
     >
 
-    <Button
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/chevron"
-        android:background="@drawable/tt"
-        android:backgroundTint="#000000"
-        android:layout_width="50dp"
+    <RelativeLayout
+        android:id="@+id/h_back2"
+        android:layout_width="30dp"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="-15dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="40dp"
-        />
+        android:layout_marginLeft="-0dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/h_img22" />
+
+
     <TextView
-        android:layout_marginTop="80dp"
         android:id="@+id/join"
-        android:text="회원가입"
-        android:gravity="center_vertical"
-        android:layout_gravity="left|clip_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left|clip_vertical"
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical"
+        android:text="회원가입"
         android:textColor="#000000"
         android:textSize="25dp"
         android:textStyle="bold"
-        />
-
+        android:layout_margin="15dp"
+        android:fontFamily="@font/suitebold"/>
 
     <EditText
         android:id="@+id/o_mypageRectangle0"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="이름"
-        android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:text="  이름"
+        android:layout_margin="8sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/suiteregular"/>
     <EditText
         android:id="@+id/o_mypageRectangle1"
         android:layout_width="330dp"
@@ -57,20 +54,22 @@
         android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="비밀번호"
-        android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:text="  비밀번호"
+        android:layout_margin="8sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/suiteregular"/>
     <EditText
         android:id="@+id/o_mypageRectangle"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
         android:gravity="fill"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="아이디"
+        android:text="  아이디"
         android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:fontFamily="@font/suiteregular"/>
     <TextView
         android:id="@+id/o_mypageRectangle3"
         android:layout_width="330dp"
@@ -79,9 +78,10 @@
         android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="이메일"
-        android:layout_margin="5sp"
-        android:textColor="#000000"/>
+        android:text="  이메일"
+        android:layout_margin="8sp"
+        android:textColor="#000000"
+        android:fontFamily="@font/suiteregular"/>
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -91,12 +91,15 @@
             android:layout_width="330dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:gravity="fill"
-            android:layout_marginTop="5sp"
-            android:layout_marginBottom="5sp"
-            android:background="@drawable/bg_custom_buttom"
-            android:text="전화번호"
+            android:layout_margin="8sp"
+            android:layout_marginStart="8dp"
             android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_custom_buttom"
+            android:gravity="fill"
+            android:text="  전화번호"
             android:textColor="#000000" />
 
         <Button
@@ -107,12 +110,12 @@
             android:textSize="18sp"
             android:text="인증"
             android:backgroundTint="#5DB9B5"
-            android:layout_marginLeft="250dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="14dp"
             />
     </RelativeLayout>
 
-    <TextView
+    <EditText
         android:id="@+id/o_mypageRectangle2"
         android:layout_width="330dp"
         android:layout_height="60dp"
@@ -120,8 +123,9 @@
         android:gravity="fill"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_custom_buttom"
-        android:text="1,2전공 입력"
-        android:layout_margin="5sp"
+        android:text="  1,2전공 입력"
+        android:fontFamily="@font/suiteregular"
+        android:layout_margin="8sp"
         android:textColor="#000000"/>
     <TextView
         android:id="@+id/question"
@@ -130,8 +134,9 @@
         android:text="채팅창 알림을 허용하시겠습니까?"
         android:textColor="#000000"
         android:layout_gravity="center"
-        android:textSize="10dp"
+        android:textSize="13dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/suitebold"
         />
     <Button
         android:id="@+id/allow"
@@ -141,6 +146,7 @@
         android:layout_gravity="center"
         android:backgroundTint="#5DB9B5"
         android:text="가입하기"
+        android:fontFamily="@font/suitebold"
         />
 
 
