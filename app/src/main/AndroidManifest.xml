@@ -12,6 +12,9 @@
         android:theme="@style/Theme.SDukdy"
         tools:targetApi="31">
         <activity
+            android:name=".StudytimeActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubjectActivity"
             android:exported="false" />
         <activity
@@ -35,9 +38,7 @@
         <activity
             android:name=".TimeTableActivity"
             android:exported="false" />
-        <activity
-            android:name=".CalendarActivity"
-            android:exported="false" />
+
         <activity
             android:name=".MypageActivity"
             android:exported="false" />

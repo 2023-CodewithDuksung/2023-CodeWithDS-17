@@ -56,7 +56,7 @@
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="55dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="122dp"
+        android:layout_marginTop="125dp"
         android:textAppearance="@style/o_subject_2"
         />
     <View
@@ -69,6 +69,16 @@
         android:layout_marginTop="120dp"
         android:background="@drawable/o_subject_rectangle3"
         />
+    <TextView
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:text="개설학과"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:textAppearance="@style/o_subject_2"
+        />
     <View
         android:id="@+id/o_subject_Btn3"
         android:layout_width="60dp"
@@ -78,6 +88,16 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="120dp"
         android:background="@drawable/o_subject_rectangle2"
+        />
+    <TextView
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:text="교양영역구분"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="208dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:textAppearance="@style/o_subject_2"
         />
     <View
         android:id="@+id/o_subject_Btn4"
@@ -89,7 +109,16 @@
         android:layout_marginTop="120dp"
         android:background="@drawable/o_subject_rectangle2"
         />
-
+    <TextView
+        android:layout_width="57dp"
+        android:layout_height="40dp"
+        android:text="강의실"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="297dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:textAppearance="@style/o_subject_2"
+        />
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -112,12 +141,12 @@
             android:layout_width="122dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="190dp"
             android:text="데이터와 친해지기"
             android:textAppearance="@style/o_subject_3"
-            android:gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical"
             />
 
         <TextView
@@ -130,7 +159,7 @@
             android:layout_marginTop="210dp"
             android:text="유견아"
             android:textAppearance="@style/o_subject_4"
-            android:gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical"
             />
         <TextView
             android:id="@+id/o_subject_txt3"
@@ -140,7 +169,7 @@
             android:layout_marginLeft="20dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="238dp"
-            android:text="월 A-B/차337"
+            android:text="월 A~B / 차337"
             android:textAppearance="@style/o_subject_5"
             />
         <TextView
@@ -170,12 +199,12 @@
             android:layout_width="130dp"
             android:layout_height="32dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="290dp"
             android:text="프로그래밍과 친해지기"
             android:textAppearance="@style/o_subject_3"
-            android:gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical"
             />
         <TextView
             android:id="@+id/o_subject_txt6"
@@ -187,7 +216,29 @@
             android:layout_marginTop="310dp"
             android:text="이찬수"
             android:textAppearance="@style/o_subject_4"
-            android:gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt7"
+            android:layout_width="75dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="338dp"
+            android:text="화 E, 목 C / 차338"
+            android:textAppearance="@style/o_subject_5"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt8"
+            android:layout_width="149dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="355dp"
+            android:text="1-4학년 융합(계열) 3학점"
+            android:textAppearance="@style/o_subject_6"
             />
         <View
             android:id="@+id/o_subject_class3"
@@ -199,6 +250,53 @@
             android:layout_marginTop="390dp"
             android:background="@drawable/o_subject_rectangle4"
             />
+        <TextView
+            android:id="@+id/o_subject_txt9"
+            android:layout_width="130dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="390dp"
+            android:text="객체지향 프로그래밍"
+            android:textAppearance="@style/o_subject_3"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt10"
+            android:layout_width="38dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="410dp"
+            android:text="남송휘"
+            android:textAppearance="@style/o_subject_4"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt11"
+            android:layout_width="75dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="438dp"
+            android:text="수 E~F / 차338"
+            android:textAppearance="@style/o_subject_5"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt12"
+            android:layout_width="149dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="455dp"
+            android:text="2학년 전선 3학점 004736-01"
+            android:textAppearance="@style/o_subject_6"
+            />
+
         <View
             android:id="@+id/o_subject_class4"
             android:layout_gravity="center_horizontal"
@@ -208,6 +306,52 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="490dp"
             android:background="@drawable/o_subject_rectangle4"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt13"
+            android:layout_width="130dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="490dp"
+            android:text="데이터베이스프로그래밍"
+            android:textAppearance="@style/o_subject_3"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt14"
+            android:layout_width="38dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="510dp"
+            android:text="박우창"
+            android:textAppearance="@style/o_subject_4"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt15"
+            android:layout_width="75dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="538dp"
+            android:text="월 E~F / 차338"
+            android:textAppearance="@style/o_subject_5"
+            />
+        <TextView
+            android:id="@+id/o_subject_txt16"
+            android:layout_width="149dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="555dp"
+            android:text="3학년 전선 3학점 004750-01"
+            android:textAppearance="@style/o_subject_6"
             />
 
         <View
@@ -222,12 +366,12 @@
             />
         <TextView
             android:id="@+id/o_subject_addT1"
-            android:layout_width="45dp"
+            android:layout_width="50dp"
             android:layout_height="20dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="267dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="240dp"
+            android:layout_marginTop="237dp"
             android:text="추가하기"
             android:textAppearance="@style/o_subject_7"
             android:lineSpacingExtra="6sp"
@@ -246,12 +390,12 @@
             />
         <TextView
             android:id="@+id/o_subject_addT2"
-            android:layout_width="45dp"
+            android:layout_width="50dp"
             android:layout_height="20dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="267dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="337dp"
             android:text="추가하기"
             android:textAppearance="@style/o_subject_7"
             android:lineSpacingExtra="6sp"
@@ -270,12 +414,12 @@
             />
         <TextView
             android:id="@+id/o_subject_addT3"
-            android:layout_width="45dp"
+            android:layout_width="50dp"
             android:layout_height="20dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="267dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="440dp"
+            android:layout_marginTop="437dp"
             android:text="추가하기"
             android:textAppearance="@style/o_subject_7"
             android:lineSpacingExtra="6sp"
@@ -294,12 +438,12 @@
             />
         <TextView
             android:id="@+id/o_subject_addT4"
-            android:layout_width="45dp"
+            android:layout_width="50dp"
             android:layout_height="20dp"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="270dp"
+            android:layout_marginLeft="267dp"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="540dp"
+            android:layout_marginTop="537dp"
             android:text="추가하기"
             android:textAppearance="@style/o_subject_7"
             android:lineSpacingExtra="6sp"

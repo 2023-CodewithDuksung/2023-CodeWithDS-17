@@ -34,14 +34,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/o_ellipse"
-        android:layout_marginLeft="42dp"
+        android:layout_marginLeft="65dp"
         android:layout_marginTop="91dp"/>
     <View
         android:id="@+id/o_profile_changeImg"
         android:layout_width="65dp"
         android:layout_height="23dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="132dp"
+        android:layout_marginLeft="170dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="121dp"
         android:background="@drawable/o_profile_rectangle1"
@@ -51,7 +51,7 @@
         android:layout_width="81dp"
         android:layout_height="22dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="146dp"
+        android:layout_marginLeft="184dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="121dp"
         android:text="변경하기"
@@ -70,19 +70,13 @@
         android:layout_centerVertical="true"
         android:background="@drawable/o_profile_rectangle2"
         />
-    <TextView
+    <EditText
         android:id="@+id/o_profile_nickname"
-        android:layout_width="113dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="200dp"
-        android:layout_centerVertical="true"
-        android:text="닉네임"
-        android:textAppearance="@style/o_profile_3"
-        android:lineSpacingExtra="8sp"
-        android:gravity="center_vertical"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="190dp"
+        android:hint="닉네임"/>
 
     <View
         android:id="@+id/o_profile_emailBtn"
@@ -94,19 +88,13 @@
         android:layout_centerVertical="true"
         android:background="@drawable/o_profile_rectangle2"
         />
-    <TextView
+    <EditText
         android:id="@+id/o_profile_email"
-        android:layout_width="113dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="259dp"
-        android:layout_centerVertical="true"
-        android:text="이메일"
-        android:textAppearance="@style/o_profile_3"
-        android:lineSpacingExtra="8sp"
-        android:gravity="center_vertical"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="이메일"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="245dp" />
 
     <View
         android:id="@+id/o_profile_phonenumberBtn"
@@ -118,19 +106,12 @@
         android:layout_centerVertical="true"
         android:background="@drawable/o_profile_rectangle2"
         />
-    <TextView
-        android:id="@+id/o_profile_phonenumber"
-        android:layout_width="113dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="318dp"
-        android:layout_centerVertical="true"
-        android:text="전화번호"
-        android:textAppearance="@style/o_profile_3"
-        android:lineSpacingExtra="8sp"
-        android:gravity="center_vertical"
-        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="전화번호"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="305dp" />
 
     <View
         android:id="@+id/o_profile_passwordBtn"
@@ -142,19 +123,12 @@
         android:layout_centerVertical="true"
         android:background="@drawable/o_profile_rectangle2"
         />
-    <TextView
-        android:id="@+id/o_profile_password"
-        android:layout_width="113dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="377dp"
-        android:layout_centerVertical="true"
-        android:text="비밀번호"
-        android:textAppearance="@style/o_profile_3"
-        android:lineSpacingExtra="8sp"
-        android:gravity="center_vertical"
-        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="365dp" />
 
     <View
         android:id="@+id/o_profile_majorBtn"
@@ -166,19 +140,13 @@
         android:layout_centerVertical="true"
         android:background="@drawable/o_profile_rectangle2"
         />
-    <TextView
-        android:id="@+id/o_profile_major"
-        android:layout_width="113dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="70dp"
-        android:layout_marginTop="436dp"
-        android:layout_centerVertical="true"
-        android:text="1,2전공"
-        android:textAppearance="@style/o_profile_3"
-        android:lineSpacingExtra="8sp"
-        android:gravity="center_vertical"
-        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1,2전공"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="425dp" />
+
 
     <View
         android:id="@+id/o_profile_saveBtn"
@@ -212,48 +180,48 @@
         <View
             android:id="@+id/o_profile_underbar"
             android:layout_width="440dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="655dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="640dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/o_homebar_rectangle" />
 
         <ImageView
-            android:id="@+id/o_timetable_homeicon"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:id="@+id/o_profile_homeicon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_homeicon"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="35dp"/>
 
         <ImageView
             android:id="@+id/o_profile_calendar"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_calendaricon2"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="140dp"/>
 
         <ImageView
             android:id="@+id/o_profile_chatting"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_chaticon"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="250dp"/>
 
         <ImageView
             android:id="@+id/o_profile_mypage"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_usercolor"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="350dp"/>
         <ImageView
             android:id="@+id/o_profile_mypage1"
-            android:layout_width="5dp"
-            android:layout_height="5dp"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
             android:src="@drawable/o_ellipse3"
-            android:layout_marginTop="715dp"
+            android:layout_marginTop="700dp"
             android:layout_marginLeft="361dp"/>
 
     </RelativeLayout>

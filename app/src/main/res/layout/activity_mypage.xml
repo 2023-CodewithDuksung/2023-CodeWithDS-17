@@ -145,48 +145,48 @@
         <View
             android:id="@+id/o_mypage_underbar"
             android:layout_width="440dp"
-            android:layout_height="80dp"
-            android:layout_marginTop="655dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="640dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/o_homebar_rectangle" />
 
         <ImageView
             android:id="@+id/o_mypage_homeicon"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_homeicon"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="35dp"/>
 
         <ImageView
             android:id="@+id/o_mypage_calendar"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_calendaricon2"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="140dp"/>
 
         <ImageView
             android:id="@+id/o_mypage_chatting"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_chaticon"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="250dp"/>
 
         <ImageView
             android:id="@+id/o_mypage_mypage"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/o_usercolor"
-            android:layout_marginTop="685dp"
+            android:layout_marginTop="665dp"
             android:layout_marginLeft="350dp"/>
         <ImageView
             android:id="@+id/o_mypage_mypage1"
-            android:layout_width="5dp"
-            android:layout_height="5dp"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
             android:src="@drawable/o_ellipse3"
-            android:layout_marginTop="715dp"
+            android:layout_marginTop="700dp"
             android:layout_marginLeft="361dp"/>
 
     </RelativeLayout>

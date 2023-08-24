@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudytimeActivity"
+    android:background="#F4F4F4">
+
+    <ImageView
+        android:id="@+id/o_studytime_backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/o_chevron2"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="6dp"
+        />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="최적의 스터디 시간"
+        android:textAppearance="@style/o_studytime_1"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/o_studytime_rectangle1"
+        />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="15dp"
+        android:src="@drawable/o_share"
+        android:layout_marginLeft="298dp"
+        android:layout_marginTop="73dp"/>
+    <TextView
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="317dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:text="공유하기"
+        android:textAppearance="@style/o_studytime_2"
+        android:lineSpacingExtra="7sp"
+        android:gravity="center_vertical"
+        />
+    
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="420dp"
+        android:src="@drawable/o_timetable"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/o_timetable_1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/o_timetable_2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="315dp"
+        android:src="@drawable/o_timetable_3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="452dp"
+        android:src="@drawable/o_timetable_4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="205dp"
+        android:src="@drawable/o_timetable_5" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="307dp"
+        android:src="@drawable/o_timetable_6" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="381dp"
+        android:src="@drawable/o_timetable_7" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/o_timetable_1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="417dp"
+        android:src="@drawable/o_timetable_2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/o_timetable_8" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="115dp"
+        android:layout_marginLeft="253dp"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/o_timetable_5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="235dp"
+        android:src="@drawable/o_timetable_9" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/o_timetable_7" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_marginLeft="338dp"
+        android:layout_marginTop="135dp"
+        android:src="@drawable/o_timetable_2" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        android:layout_marginLeft="338dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/o_timetable_5" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginLeft="338dp"
+        android:layout_marginTop="335dp"
+        android:src="@drawable/o_timetable_8" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="338dp"
+        android:layout_marginTop="483dp"
+        android:src="@drawable/o_timetable_10" />
+
+    <TextView
+        android:layout_width="133dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="공유된 시간표"
+        android:textAppearance="@style/o_studytime_3"
+        android:lineSpacingExtra="4sp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/o_studytime_view"
+        android:layout_width="47dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="325dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="555dp"
+        android:text="전체보기"
+        android:textAppearance="@style/o_studytime_4"
+        android:lineSpacingExtra="8sp"
+        android:gravity="center_vertical"
+        />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:src="@drawable/o_studytime_img1"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="595dp"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:src="@drawable/o_studytime_img2"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="595dp"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:src="@drawable/o_studytime_img3"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="595dp"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="103dp"
+        android:src="@drawable/o_studytime_img4"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="595dp"/>
+
+</FrameLayout>
