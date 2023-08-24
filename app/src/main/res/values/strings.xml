@@ -29,6 +29,7 @@
     <string name="h_hello_blank_fragment">Hello blank fragment</string>
     <string name="h_inbutton">입장하기</string>
     <string name="h_goal">학습목표</string>
+    <string name="j_addChatting">새 채팅방 생성하기</string>
     <string name="h_subject">과목별</string>
     <string name="h_all">전체</string>
     <string name="h_seegroup">모집 중인 스터디 그룹</string>
@@ -38,10 +39,19 @@
     <string name="h_newchat">새 채팅방 생성하기</string>
 
 
+    <string name="sjyapp_name">plan</string>
+    <string name="ertapp_name">emetyroom</string>
+
+
     <!-- Hakyung -->
 
-    <string name="j_addChatting">새 채팅방 생성하기</string>
     <string name="h_license">자격증별</string>
+
+    <string name="y_app_name">SDuckdy</string>
+    <string name="common_confirm">아이디</string>
+    <string name="common_confirm2">로그인</string>
+    <string name="common_cancel">비밀번호</string>
+    <string name="common_info">회원가입/비밀번호찾기</string>
 
 
 </resources>

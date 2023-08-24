@@ -1,9 +1,11 @@
 package com.example.sdukdy
 
-import android.content.Intent
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.content.Intent
 import com.example.sdukdy.databinding.ActivityAddBinding
+
 
 class AddActivity : AppCompatActivity() {
 
@@ -30,7 +32,6 @@ class AddActivity : AppCompatActivity() {
 
             finish()
         }
-
 
     }
 }

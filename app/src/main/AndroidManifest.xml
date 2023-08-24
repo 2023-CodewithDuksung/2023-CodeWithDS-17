@@ -11,18 +11,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SDukdy"
         tools:targetApi="31">
+        <activity
+            android:name=".SjtmainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudyingActivity"
+            android:exported="false" />
 
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-        </activity>
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".AddActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatActivity"
             android:exported="false" />
         <activity
             android:name=".RecruitActivity2"
@@ -30,14 +45,12 @@
         <activity
             android:name=".HomeActivity"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-
-
-
         <activity
             android:name=".TimeTableActivity"
             android:exported="false" />
@@ -50,6 +63,19 @@
         <activity
             android:name=".ChattingActivity"
             android:exported="false" />
+        <activity
+            android:name=".StudytimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

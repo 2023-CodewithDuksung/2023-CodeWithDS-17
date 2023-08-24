@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="@drawable/rt">
+
+    <TextView
+        android:id="@+id/august"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="August"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="165dp"/>
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/chevron"
+        android:background="@drawable/yt"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-265dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"/>
+
+    <RelativeLayout
+        android:id="@+id/sjy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="-4dp">
+
+        <TextView
+            android:id="@+id/o_mypageRectangle1"
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/bg_custom_buttom"
+            />
+        <TextView
+            android:id="@+id/sjyun"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginRight="40dp"
+            android:text="1."
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="@drawable/yu"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/sjyug"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="40dp"
+            android:text="2."
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="@drawable/yu"
+            android:textSize="17dp"/>
+
+        <Button
+            android:id="@+id/number"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#5DB9B5"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="420dp"
+            />
+        <TextView
+            android:id="@+id/plus"
+            android:text="+"
+            android:textSize="40dp"
+            android:textColor="#ffffff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="273dp"
+            android:layout_marginTop="415dp"/>
+        <TextView
+            android:id="@+id/o_mypageRecsjy"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="-25dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/bg_custom_buttom"/>
+
+        <TextView
+            android:id="@+id/ui"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="진행도"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="0dp"/>
+        <TextView
+            android:id="@+id/uys"
+            android:layout_width="330dp"
+            android:layout_height="300dp"
+            android:background="@drawable/ttt"
+            android:layout_marginTop="480dp"
+            android:layout_marginLeft="-20dp"/>
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

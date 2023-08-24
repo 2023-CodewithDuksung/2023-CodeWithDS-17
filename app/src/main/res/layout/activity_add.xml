@@ -9,6 +9,7 @@
     android:clipToOutline="true"
     android:background="#F4F4F4"
     tools:context=".AddActivity">
+
     <TextView
         android:id="@+id/j_createChatting"
         android:layout_width="wrap_content"
@@ -20,8 +21,7 @@
         android:textAppearance="@style/j_title"
         android:lineSpacingExtra="2sp"
         android:gravity="center_vertical"
-        android:fontFamily="@font/suitebold"
-        />
+        android:fontFamily="@font/suitebold"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,9 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
-            android:text="채팅방 이름"
             android:fontFamily="@font/suitebold"
-            />
+            android:text="채팅방 이름" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -69,9 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
-            android:text="학습목표"
             android:fontFamily="@font/suitebold"
-            />
+            android:text="학습목표" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -111,8 +109,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="1dp"
                     android:layout_marginTop="20dp"
-                    android:text="검색 카테고리"
-                    android:fontFamily="@font/suitebold"/>
+                    android:fontFamily="@font/suitebold"
+                    android:text="검색 카테고리" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="190dp"
@@ -148,8 +146,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="1dp"
                     android:layout_marginTop="20dp"
-                    android:text="미팅방식"
-                    android:fontFamily="@font/suitebold"/>
+                    android:fontFamily="@font/suitebold"
+                    android:text="미팅방식" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="150dp"
@@ -182,8 +180,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
-            android:text="마감 인원"
-            android:fontFamily="@font/suitebold"/>
+            android:fontFamily="@font/suitebold"
+            android:text="마감 인원" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="250dp"
@@ -214,8 +212,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
-            android:text="공부 기간"
-            android:fontFamily="@font/suitebold"/>
+            android:fontFamily="@font/suitebold"
+            android:text="공부 기간" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="250dp"
@@ -249,9 +247,9 @@
             android:layout_weight="1"
             android:textColor="@color/white"
             android:background="@drawable/j_button_round"
-            android:text="생성하기"
-            android:fontFamily="@font/suitebold"/>
-
+            android:fontFamily="@font/suitebold"
+            android:text="생성하기" />
 
     </LinearLayout>
 </RelativeLayout>
+

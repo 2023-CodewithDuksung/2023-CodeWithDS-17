@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/o_settings_backBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/o_chevron2"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="46dp"
+        />
+
+    <TextView
+        android:id="@+id/o_settings_title"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="166dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="설정"
+        android:textAppearance="@style/o_settings_1"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/o_settings_onoff"
+        android:layout_width="277dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="채팅창 알림"
+        android:textAppearance="@style/o_settings_2"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center_vertical"
+        />
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="45dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="281dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/o_settings_rectangle1"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/o_settings_switch2"
+        android:layout_marginTop="118dp"
+        android:layout_marginLeft="283dp"
+        />
+
+
+    <View
+        android:id="@+id/o_settings_saveBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="198dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="575dp"
+        android:background="@drawable/o_mypage_rectangle1"
+        />
+
+    <TextView
+        android:id="@+id/o_settings_save"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="580dp"
+        android:text="저장"
+        android:textAppearance="@style/o_mypage_5"
+        android:lineSpacingExtra="3sp"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/o_profile_underbar"
+            android:layout_width="440dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="640dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/o_homebar_rectangle" />
+
+        <ImageView
+            android:id="@+id/o_settings_homeicon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o_homeicon"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="35dp"/>
+
+        <ImageView
+            android:id="@+id/o_settings_calendar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o_calendaricon2"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="140dp"/>
+
+        <ImageView
+            android:id="@+id/o_settings_chatting"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o_chaticon"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="250dp"/>
+
+        <ImageView
+            android:id="@+id/o_settings_mypage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/o_usercolor"
+            android:layout_marginTop="665dp"
+            android:layout_marginLeft="350dp"/>
+        <ImageView
+            android:id="@+id/o_settings_mypage1"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:src="@drawable/o_ellipse3"
+            android:layout_marginTop="705dp"
+            android:layout_marginLeft="361dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
