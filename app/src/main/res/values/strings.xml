@@ -30,5 +30,19 @@
     <string name="h_inbutton">입장하기</string>
     <string name="h_goal">학습목표</string>
     <string name="j_addChatting">새 채팅방 생성하기</string>
+    <string name="h_subject">과목별</string>
+    <string name="h_all">전체</string>
+    <string name="h_seegroup">모집 중인 스터디 그룹</string>
+    <string name="h_datast2">자료구조론</string>
+    <string name="h_koreahis">한국현대사</string>
+    <string name="h_toeic">토익</string>
+    <string name="h_newchat">새 채팅방 생성하기</string>
+
+
+    <!-- Hakyung -->
+
+    <string name="h_license">자격증별</string>
+
+>>>>>>> a7ba5638d12486844e214e69938c8e1c3cea238b
 
 </resources>

@@ -26,7 +26,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="80dp"
         android:padding="30dp"
         android:orientation="vertical"
         >
@@ -36,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
+            android:fontFamily="@font/suitebold"
             android:text="채팅방 이름" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/suitebold"
             android:text="학습목표" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -107,6 +109,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="1dp"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/suitebold"
                     android:text="검색 카테고리" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -143,6 +146,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="1dp"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/suitebold"
                     android:text="미팅방식" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -176,6 +180,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/suitebold"
             android:text="마감 인원" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -207,6 +212,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
             android:layout_marginTop="20dp"
+            android:fontFamily="@font/suitebold"
             android:text="공부 기간" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -241,13 +247,9 @@
             android:layout_weight="1"
             android:textColor="@color/white"
             android:background="@drawable/j_button_round"
+            android:fontFamily="@font/suitebold"
             android:text="생성하기" />
 
-
     </LinearLayout>
-
-
-
-
-
 </RelativeLayout>
+
