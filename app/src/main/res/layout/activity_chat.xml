@@ -9,80 +9,325 @@
     android:layout_height="match_parent"
     tools:context=".ChatActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#F4F4F4">
-    
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="vertical">
-    
-        <TextView
-            android:id="@+id/j_studyGroup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="48dp"
-            android:text="스터디 그룹 1"
-            android:textAppearance="@style/j_title"
-            android:lineSpacingExtra="2sp"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="@font/suitebold" />
-    
-        </LinearLayout>
-    
-        <!--대화 내용-->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/chat_recyclerView"
-            android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_above="@id/input_layout"/>
-    
-        <!--입력 레이아웃-->
-        <LinearLayout
-            android:id="@+id/input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:orientation="horizontal"
-            android:layout_marginBottom="20dp"
-            android:weightSum="94">
-    
-            <EditText
-                android:id="@+id/message_edit"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_marginStart="10dp"
-                android:layout_weight="93"
-                android:background="@drawable/j_edit_background"
-                android:fontFamily="@font/suiteregular"
-                android:hint="메시지를 입력하세요"
-                android:paddingStart="15dp"/>
-    
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/send_btn"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginStart="13dp"
-                android:layout_marginEnd="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/j_sendicon"/>
-    
-    
-        </LinearLayout>
-    </RelativeLayout>
-    
-    <TextView
-        android:layout_width="315dp"
-        android:layout_height="match_parent"
-        android:text="Drawer!!!"
-        android:background="#F9F9F9"
-        android:fitsSystemWindows="true"
-        android:gravity="center"
-        android:layout_gravity="end"/>
+            android:background="#F4F4F4">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/j_studyGroup"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="48dp"
+                        android:text="스터디 그룹 1"
+                        android:textAppearance="@style/j_title"
+                        android:lineSpacingExtra="2sp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="130dp"
+                        android:fontFamily="@font/suitebold" />
+
+                    <ImageView
+                        android:id="@+id/o_chat_cameraBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/o_chat_cameraicon"
+                        android:layout_marginLeft="300dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="right"
+                        />
+
+                    <ImageView
+                        android:id="@+id/o_chat_menuBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/o_chat_menuicon"
+                        android:layout_marginLeft="350dp"
+                        android:layout_marginTop="45dp"
+                        android:layout_gravity="right"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!--대화 내용-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chat_recyclerView"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_above="@id/input_layout"/>
+
+            <!--입력 레이아웃-->
+            <LinearLayout
+                android:id="@+id/input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                android:weightSum="94">
+
+                <EditText
+                    android:id="@+id/message_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="93"
+                    android:background="@drawable/j_edit_background"
+                    android:fontFamily="@font/suiteregular"
+                    android:hint="메시지를 입력하세요"
+                    android:paddingStart="15dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/send_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/j_sendicon"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/o_drawerContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F4F4"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/o_drawable_backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="93dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="60dp"
+                android:text="My 시간표"
+                android:textAppearance="@style/o_drawable_1"
+                android:lineSpacingExtra="4sp"
+                android:gravity="center_vertical"
+                />
+
+            <View
+                android:id="@+id/o_drawable_shareBtn"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="190dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="67dp"
+                android:background="@drawable/o_studytime_rectangle1"
+                />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="15dp"
+                android:src="@drawable/o_share"
+                android:layout_marginLeft="198dp"
+                android:layout_marginTop="73dp"/>
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="15dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="217dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="73dp"
+                android:text="공유하기"
+                android:textAppearance="@style/o_studytime_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_drawable_img1"
+                android:layout_marginTop="123dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/o_drawable_studytime"
+                android:layout_width="131dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="371dp"
+                android:text="최적의 스터디 시간 보기"
+                android:textAppearance="@style/o_drawable_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/o_drawable_studytimeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron"
+                android:layout_marginTop="390dp"
+                android:layout_marginLeft="250dp" />
+
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="425dp"
+                android:background="@drawable/o_drawable_line1"
+                />
+
+            <TextView
+                android:id="@+id/o_drawable_classroom"
+                android:layout_width="131dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="420dp"
+                android:text="빈 강의실 확인"
+                android:textAppearance="@style/o_drawable_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/o_drawable_classroomBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron"
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="250dp" />
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="475dp"
+                android:background="@drawable/o_drawable_line1"
+                />
+
+            <TextView
+                android:id="@+id/o_drawable_plan"
+                android:layout_width="131dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="470dp"
+                android:text="학습계획 진행 / 확인"
+                android:textAppearance="@style/o_drawable_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/o_drawable_planBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron"
+                android:layout_marginTop="490dp"
+                android:layout_marginLeft="250dp" />
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="525dp"
+                android:background="@drawable/o_drawable_line1"
+                />
+            <TextView
+                android:id="@+id/o_drawable_modify"
+                android:layout_width="131dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="520dp"
+                android:text="채팅방 수정"
+                android:textAppearance="@style/o_drawable_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/o_drawable_modifyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron"
+                android:layout_marginTop="540dp"
+                android:layout_marginLeft="250dp" />
+            <View
+                android:layout_width="220dp"
+                android:layout_height="1dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="575dp"
+                android:background="@drawable/o_drawable_line1"
+                />
+            <TextView
+                android:id="@+id/o_drawable_quiz"
+                android:layout_width="131dp"
+                android:layout_height="54dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="570dp"
+                android:text="퀴즈 진행"
+                android:textAppearance="@style/o_drawable_2"
+                android:lineSpacingExtra="7sp"
+                android:gravity="center_vertical"
+                />
+
+            <ImageView
+                android:id="@+id/o_drawable_quizBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/o_chevron"
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="250dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

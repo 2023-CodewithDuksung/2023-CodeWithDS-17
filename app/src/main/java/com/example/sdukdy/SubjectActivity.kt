@@ -12,7 +12,7 @@ class SubjectActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.o_subject_add1).setOnClickListener {
             val intent = Intent(this@SubjectActivity, TimeTableActivity::class.java)
-            intent.putExtra("color", android.graphics.Color.RED)
+            intent.putExtra("color", android.graphics.Color.CYAN)
             startActivity(intent)
         }
 

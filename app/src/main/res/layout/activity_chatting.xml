@@ -20,18 +20,17 @@
         android:layout_marginLeft="0dp"
         android:layout_marginTop="630dp"
         android:background="@drawable/h_img9" />
+
     <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/h_homeicon"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="655dp"
-        android:clipToOutline="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="660dp"
         android:background="@drawable/ji_homeicon"
-        />
+        android:clipToOutline="true" />
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/h_timetable"

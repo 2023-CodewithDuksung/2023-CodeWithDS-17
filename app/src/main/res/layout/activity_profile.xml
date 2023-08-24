@@ -180,8 +180,8 @@
         <View
             android:id="@+id/o_profile_underbar"
             android:layout_width="440dp"
-            android:layout_height="95dp"
-            android:layout_marginTop="640dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="630dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/o_homebar_rectangle" />
 
@@ -190,7 +190,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_homeicon"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="650dp"
             android:layout_marginLeft="35dp"/>
 
         <ImageView
@@ -198,7 +198,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_calendaricon2"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="650dp"
             android:layout_marginLeft="140dp"/>
 
         <ImageView
@@ -206,7 +206,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_chaticon"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="650dp"
             android:layout_marginLeft="250dp"/>
 
         <ImageView
@@ -214,14 +214,14 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/o_usercolor"
-            android:layout_marginTop="665dp"
+            android:layout_marginTop="650dp"
             android:layout_marginLeft="350dp"/>
         <ImageView
             android:id="@+id/o_profile_mypage1"
             android:layout_width="7dp"
             android:layout_height="7dp"
             android:src="@drawable/o_ellipse3"
-            android:layout_marginTop="700dp"
+            android:layout_marginTop="685dp"
             android:layout_marginLeft="361dp"/>
 
     </RelativeLayout>
